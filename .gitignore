@@ -1,0 +1,23 @@
+# Python キャッシュ
+__pycache__/
+*.pyc
+*.pyo
+
+# 仮想環境
+venv/
+.env/
+
+# 大容量ファイル
+*.bin
+*.model
+*.json
+*.csv
+*.sqlite
+*.log
+
+# AI/ML 関連キャッシュ
+.cache/
+checkpoints/
+output/
+logs/
+wandb/
